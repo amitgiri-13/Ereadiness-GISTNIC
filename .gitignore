@@ -1,0 +1,72 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Test coverage results
+htmlcov/
+.tox/
+.coverage
+*.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+# Usually contains a lot of build artifacts
+dist/
+build/
+*.spec
+
+# MyPy cache
+.mypy_cache/
+
+# Profiling data
+*.prof
+
+# pytest
+.pytest_cache/
+
+# pip
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Static analysis tools
+.pyre/
+.pytype/
+
+# Django specific
+*.sqlite3
+media/
+staticfiles/
+
+# Flask specific
+instance/
